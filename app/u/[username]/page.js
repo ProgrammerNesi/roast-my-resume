@@ -112,7 +112,7 @@ export default async function PublicProfilePage({ params }) {
                       <div className="flex flex-col items-center justify-center h-full bg-orange-50 rounded-2xl p-8 text-center">
                         <div className="text-4xl mb-4">📄</div>
                         <p className="text-lg font-semibold text-slate-800 mb-2">PDF Preview Not Available</p>
-                        <p className="text-slate-600 mb-4">Your browser doesn't support embedded PDFs.</p>
+                        <p className="text-slate-600 mb-4">Your browser doesn&apos;t support embedded PDFs.</p>
                         <a 
                           href={resumeUrl} 
                           target="_blank" 
@@ -222,8 +222,8 @@ export default async function PublicProfilePage({ params }) {
                 <div className="text-4xl mb-4">🔥</div>
                 <h3 className="text-xl font-bold mb-2">Get Your Resume Roasted</h3>
                 <p className="text-orange-100 text-sm mb-4 leading-relaxed">
-                  Join thousands who've improved their resumes with anonymous feedback and AI analysis
-                </p>
+  Join thousands who&apos;ve improved their resumes with anonymous feedback and AI analysis
+</p>
                 <a 
                   href="/signup"
                   className="inline-flex items-center gap-2 rounded-xl bg-white text-orange-600 font-bold px-6 py-3 hover:scale-105 transition-transform w-full justify-center"
