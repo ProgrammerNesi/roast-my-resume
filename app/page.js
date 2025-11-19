@@ -16,7 +16,7 @@ export default function Home() {
           
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight">
             Get Your Resume
-            <span className="block text-orange-500 mt-2">Roasted & Improved</span>
+            <span className="block text-orange-500 mt-2">Roasted &amp; Improved</span>
           </h1>
           
           <p className="mt-6 max-w-2xl mx-auto text-xl text-slate-700 leading-relaxed">
@@ -29,7 +29,7 @@ export default function Home() {
               href="/signup" 
               className="inline-flex items-center rounded-xl bg-orange-600 text-white px-8 py-4 text-lg font-semibold shadow-lg hover:bg-orange-700 transition-all duration-300 hover:scale-105 hover:shadow-xl"
             >
-              🚀 Start Your Resume Roast - It's Free
+              🚀 Start Your Resume Roast - It&apos;s Free
             </Link>
             <Link 
               href="/about" 
@@ -161,7 +161,7 @@ export default function Home() {
               <div className="p-4 bg-green-50 rounded-lg border border-green-200">
                 <p className="font-semibold text-green-700 mb-2">✅ Improvements Made:</p>
                 <ul className="list-disc pl-5 space-y-1">
-                  <li>Added metrics: "Increased revenue by 40%"</li>
+                  <li>Added metrics: &quot;Increased revenue by 40%&quot;</li>
                   <li>Optimized with 15+ industry keywords</li>
                   <li>Used powerful action verbs</li>
                   <li>Highlighted quantifiable achievements</li>
@@ -204,7 +204,7 @@ export default function Home() {
           Ready to Transform Your Resume?
         </h2>
         <p className="text-xl text-slate-600 mb-8 max-w-2xl mx-auto">
-          Join thousands of job seekers who've improved their resumes and landed more interviews with our platform.
+          Join thousands of job seekers who&apos;ve improved their resumes and landed more interviews with our platform.
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
