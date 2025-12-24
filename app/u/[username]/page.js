@@ -112,7 +112,7 @@ export default async function PublicProfilePage({ params }) {
                       <div className="flex flex-col items-center justify-center h-full bg-orange-50 rounded-2xl p-8 text-center">
                         <div className="text-4xl mb-4">📄</div>
                         <p className="text-lg font-semibold text-slate-800 mb-2">PDF Preview Not Available</p>
-                        <p className="text-slate-600 mb-4">Your browser doesn&apos;t support embedded PDFs.</p>
+                        <p className="text-slate-600 mb-4">Click Here to view the resume.</p>
                         <a 
                           href={resumeUrl} 
                           target="_blank" 

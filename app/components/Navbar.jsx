@@ -102,7 +102,7 @@ export default function Navbar() {
                   href="/signup" 
                   className="px-6 py-2 rounded-xl bg-gradient-to-r from-orange-600 to-amber-600 text-white font-semibold hover:from-orange-700 hover:to-amber-700 transition-all hover:scale-105 shadow-lg flex items-center gap-2"
                 >
-                  <span>🔥</span>
+                  <span></span>
                   Get Started
                 </Link>
               </div>

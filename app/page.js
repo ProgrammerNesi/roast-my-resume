@@ -29,13 +29,13 @@ export default function Home() {
               href="/signup" 
               className="inline-flex items-center rounded-xl bg-orange-600 text-white px-8 py-4 text-lg font-semibold shadow-lg hover:bg-orange-700 transition-all duration-300 hover:scale-105 hover:shadow-xl"
             >
-              🚀 Start Your Resume Roast - It&apos;s Free
+               Start Your Resume Roast - It&apos;s Free
             </Link>
             <Link 
               href="/about" 
               className="inline-flex items-center rounded-xl border-2 border-orange-300 bg-white text-slate-900 px-8 py-4 text-lg font-medium hover:bg-orange-50 transition-all duration-300 hover:scale-105"
             >
-              🤔 How It Works
+               How It Works
             </Link>
           </div>
 
@@ -212,13 +212,13 @@ export default function Home() {
             href="/signup" 
             className="inline-flex items-center rounded-xl bg-gradient-to-r from-orange-600 to-amber-600 text-white px-10 py-4 text-lg font-bold shadow-xl hover:from-orange-700 hover:to-amber-700 transition-all duration-300 hover:scale-105 hover:shadow-2xl"
           >
-            🚀 Start Your Free Resume Roast
+             Start Your Free Resume Roast
           </Link>
           <Link 
             href="/signin" 
             className="inline-flex items-center rounded-xl border-2 border-orange-400 bg-white text-slate-900 px-10 py-4 text-lg font-semibold hover:bg-orange-50 transition-all duration-300 hover:scale-105"
           >
-            🔥 Try Demo Version
+             Try Demo Version
           </Link>
         </div>
 

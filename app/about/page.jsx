@@ -142,7 +142,7 @@ export default function AboutPage() {
               {
                 step: "2",
                 title: "Get Roasted",
-                description: "Receive anonymous feedback from our community + comprehensive AI suggestions for improvement.",
+                description: "Receive anonymous feedback by sharing the link generated to your friends and colleagues + comprehensive AI suggestions for improvement.",
                 icon: "🔥"
               },
               {
@@ -177,8 +177,8 @@ export default function AboutPage() {
               },
               {
                 icon: "🛡️",
-                title: "Privacy First",
-                description: "Your identity and resume are protected through anonymous feedback systems"
+                title: "Anonymity",
+                description: "Safe space for genuine reviews without fear of judgment"
               },
               {
                 icon: "🚀",
