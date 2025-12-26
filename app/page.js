@@ -40,7 +40,17 @@ export default function Home() {
           </div>
 
           <div className="mt-8 text-sm text-slate-500">
-            No credit card required • 100% anonymous feedback • AI analysis included
+            100% anonymous feedback • AI analysis included
+          </div>
+          <div className="mt-3 text-sm text-slate-500">
+            This is an early-stage project :
+Feedback is anonymous and currently unmoderated.
+          </div>
+          <div className="mt-1 text-sm text-slate-500">
+            Do not upload sensitive personal information.
+          </div>
+          <div className="mt-1 text-sm text-slate-500">
+            Some features are not yet implemented
           </div>
         </div>
       </section>
@@ -64,7 +74,7 @@ export default function Home() {
             </div>
             <h3 className="text-xl font-bold mb-3">Upload Your Resume</h3>
             <p className="text-slate-600 leading-relaxed">
-              Upload your current resume (PDF or DOCX). Our AI instantly analyzes structure, keywords, and impact.
+              Upload your current resume (PDF or DOCX). AI instantly analyzes structure, keywords, and impact.
             </p>
           </div>
 
@@ -172,68 +182,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Features Grid */}
-      <section className="mx-auto max-w-7xl px-6 py-16 bg-gradient-to-r from-orange-50 to-amber-50 rounded-3xl m-6">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-            Why Choose Resume Roast?
-          </h2>
-        </div>
+      
+      
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {[
-            { icon: "🤖", title: "AI-Powered Analysis", desc: "Get detailed feedback on structure, keywords, and impact using advanced AI" },
-            { icon: "👥", title: "Anonymous Community", desc: "Honest feedback from real people without judgment or bias" },
-            { icon: "⚡", title: "Instant Results", desc: "Upload your resume and get feedback in minutes, not days" },
-            { icon: "🔒", title: "100% Private", desc: "Your resume and identity are protected - feedback is anonymous" },
-            { icon: "📈", title: "Track Progress", desc: "See your resume score improve with each iteration" },
-            { icon: "💼", title: "Job-Focused", desc: "Feedback tailored to help you land your dream job" }
-          ].map((feature, index) => (
-            <div key={index} className="bg-white rounded-xl p-6 shadow-md border border-orange-100 hover:shadow-lg transition-shadow duration-300">
-              <div className="text-3xl mb-4">{feature.icon}</div>
-              <h3 className="font-bold text-lg mb-2">{feature.title}</h3>
-              <p className="text-slate-600 text-sm leading-relaxed">{feature.desc}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* Final CTA */}
-      <section className="mx-auto max-w-4xl px-6 py-16 text-center">
-        <h2 className="text-3xl sm:text-4xl font-bold mb-6">
-          Ready to Transform Your Resume?
-        </h2>
-        <p className="text-xl text-slate-600 mb-8 max-w-2xl mx-auto">
-          Join thousands of job seekers who&apos;ve improved their resumes and landed more interviews with our platform.
-        </p>
-        
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <Link 
-            href="/signup" 
-            className="inline-flex items-center rounded-xl bg-gradient-to-r from-orange-600 to-amber-600 text-white px-10 py-4 text-lg font-bold shadow-xl hover:from-orange-700 hover:to-amber-700 transition-all duration-300 hover:scale-105 hover:shadow-2xl"
-          >
-             Start Your Free Resume Roast
-          </Link>
-          <Link 
-            href="/signin" 
-            className="inline-flex items-center rounded-xl border-2 border-orange-400 bg-white text-slate-900 px-10 py-4 text-lg font-semibold hover:bg-orange-50 transition-all duration-300 hover:scale-105"
-          >
-             Try Demo Version
-          </Link>
-        </div>
-
-        <div className="mt-8 flex flex-wrap items-center justify-center gap-6 text-sm text-slate-500">
-          <div className="flex items-center gap-2">
-            <span className="text-green-500">✓</span> No credit card required
-          </div>
-          <div className="flex items-center gap-2">
-            <span className="text-green-500">✓</span> Free forever plan
-          </div>
-          <div className="flex items-center gap-2">
-            <span className="text-green-500">✓</span> 5-minute setup
-          </div>
-        </div>
-      </section>
+      
     </div>
   );
 }

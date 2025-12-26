@@ -259,35 +259,7 @@ export const SignUpForm = () => {
         </Link>
       </div>
 
-      {/* Benefits List */}
-      <div className="mt-8 p-4 bg-gradient-to-r from-orange-50 to-amber-50 rounded-2xl border border-orange-200">
-        <h4 className="font-semibold text-slate-800 mb-3 flex items-center gap-2">
-          <span className="text-orange-500">🎯</span>
-          What you'll get:
-        </h4>
-        <ul className="text-sm text-slate-700 space-y-2">
-          <li className="flex items-center gap-2">
-            <span className="text-green-500">✓</span>
-            Anonymous resume feedback from real people
-          </li>
-          <li className="flex items-center gap-2">
-            <span className="text-green-500">✓</span>
-            AI-powered resume analysis and scoring
-          </li>
-          <li className="flex items-center gap-2">
-            <span className="text-green-500">✓</span>
-            Shareable resume review links
-          </li>
-          <li className="flex items-center gap-2">
-            <span className="text-green-500">✓</span>
-            Track your resume improvement over time
-          </li>
-          <li className="flex items-center gap-2">
-            <span className="text-green-500">✓</span>
-            Completely free forever
-          </li>
-        </ul>
-      </div>
+      
     </div>
   );
 };

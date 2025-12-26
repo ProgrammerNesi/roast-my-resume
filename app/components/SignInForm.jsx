@@ -158,31 +158,7 @@ export const SignInForm = () => {
         </Link>
       </div>
 
-      {/* Features List */}
-      <div className="mt-8 p-4 bg-gradient-to-r from-orange-50 to-amber-50 rounded-2xl border border-orange-200">
-        <h4 className="font-semibold text-slate-800 mb-3 flex items-center gap-2">
-          <span className="text-orange-500">⭐</span>
-          What's waiting for you:
-        </h4>
-        <ul className="text-sm text-slate-700 space-y-2">
-          <li className="flex items-center gap-2">
-            <span className="text-green-500">✓</span>
-            Access to your resume reviews and feedback
-          </li>
-          <li className="flex items-center gap-2">
-            <span className="text-green-500">✓</span>
-            AI-powered resume analysis
-          </li>
-          <li className="flex items-center gap-2">
-            <span className="text-green-500">✓</span>
-            Track your improvement over time
-          </li>
-          <li className="flex items-center gap-2">
-            <span className="text-green-500">✓</span>
-            Share your resume for anonymous feedback
-          </li>
-        </ul>
-      </div>
+      
     </div>
   );
 };

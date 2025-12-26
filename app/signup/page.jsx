@@ -30,13 +30,7 @@ export default async function SignupPage() {
         {/* Sign Up Form */}
         <SignUpForm />
 
-        {/* Security Note */}
-        <div className="mt-8 text-center">
-          <div className="flex items-center justify-center gap-2 text-sm text-slate-500">
-            <span>🔒</span>
-            <span>We never share your data with third parties</span>
-          </div>
-        </div>
+        
       </main>
 
       {/* Background Decoration */}
