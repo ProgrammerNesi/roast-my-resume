@@ -104,9 +104,6 @@ export default function AboutPage() {
         {/* Final CTA */}
         <section className="text-center bg-gradient-to-r from-orange-50 to-amber-50 rounded-2xl p-12 border border-orange-200">
           <h2 className="text-3xl font-bold mb-4">Ready to Transform Your Resume?</h2>
-          <p className="text-xl text-slate-600 mb-8 max-w-2xl mx-auto">
-            Join thousands of job seekers who've improved their resumes and landed more interviews.
-          </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link 
               href="/signup" 

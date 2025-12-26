@@ -87,7 +87,14 @@ export default function DashboardPage() {
               Create Your Resume Review
             </h1>
             <p className="mt-4 text-lg text-slate-700 max-w-2xl">
-              Upload your resume, add job details, and get ready to receive honest feedback from our community.
+              Note:This is an early-stage learning project <br /> Feedback is anonymous and currently unmoderated.
+              <br />
+Do not upload sensitive personal information.
+<br />
+Some features are not yet implemented and their might be bugs.
+            </p>
+            <p className="mt-4 text-lg text-slate-700 max-w-2xl">
+              Upload your resume, add job details.
             </p>
           </div>
         </div>

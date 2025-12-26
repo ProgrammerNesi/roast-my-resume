@@ -50,7 +50,7 @@ Feedback is anonymous and currently unmoderated.
             Do not upload sensitive personal information.
           </div>
           <div className="mt-1 text-sm text-slate-500">
-            Some features are not yet implemented
+            Some features are not yet implemented and their might be bugs.
           </div>
         </div>
       </section>

@@ -221,9 +221,6 @@ export default async function PublicProfilePage({ params }) {
               <div className="text-center">
                 <div className="text-4xl mb-4">🔥</div>
                 <h3 className="text-xl font-bold mb-2">Get Your Resume Roasted</h3>
-                <p className="text-orange-100 text-sm mb-4 leading-relaxed">
-  Join thousands who&apos;ve improved their resumes with anonymous feedback and AI analysis
-</p>
                 <a 
                   href="/signup"
                   className="inline-flex items-center gap-2 rounded-xl bg-white text-orange-600 font-bold px-6 py-3 hover:scale-105 transition-transform w-full justify-center"
@@ -265,9 +262,7 @@ export default async function PublicProfilePage({ params }) {
         {/* Bottom CTA */}
         <div className="text-center bg-gradient-to-r from-orange-50 to-amber-50 rounded-3xl p-8 border border-orange-200">
           <h3 className="text-2xl font-bold text-slate-800 mb-3">Ready to Improve Your Own Resume?</h3>
-          <p className="text-slate-600 mb-6 max-w-2xl mx-auto">
-            Get the same anonymous feedback and AI analysis that helped {username} improve their resume.
-          </p>
+          
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a 
               href="/signup"

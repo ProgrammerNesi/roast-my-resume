@@ -151,9 +151,6 @@ export default function MessagesPage() {
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight bg-gradient-to-r from-orange-600 to-amber-600 bg-clip-text text-transparent">
                 Your Resume Feedback
               </h1>
-              <p className="mt-4 text-base sm:text-lg text-slate-700 max-w-2xl">
-                Anonymous reviews from our community combined with AI-powered analysis to help you improve.
-              </p>
             </div>
             
             {/* Stats Card - Now properly responsive */}
